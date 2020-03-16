@@ -1,0 +1,38 @@
+{
+  "name": "autumn-util",
+  "version": "1.0.0",
+  "description": "前端常用的工具函数，支持umd",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node build/gulp.js",
+    "build": "node build/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kisstheair/Autumn-util.git"
+  },
+  "keywords": [
+    "util",
+    "common",
+    "frondend",
+    "umd"
+  ],
+  "author": "seven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kisstheair/Autumn-util/issues"
+  },
+  "homepage": "https://github.com/kisstheair/Autumn-util#readme",
+  "devDependencies": {
+    "gulp-watch": "^5.0.1",
+    "webpack": "^4.39.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "chalk": "^3.0.0",
+    "ora": "^4.0.3",
+    "rimraf": "^3.0.2"
+  }
+}
