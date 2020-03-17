@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kisstheair/Autumn-util.git"
+    "url": "https://github.com/Autumn-Seven/Autumn-util.git"
   },
   "keywords": [
     "util",
@@ -21,9 +21,9 @@
   "author": "seven",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kisstheair/Autumn-util/issues"
+    "url": "https://github.com/Autumn-Seven/Autumn-util.git/issues"
   },
-  "homepage": "https://github.com/kisstheair/Autumn-util#readme",
+  "homepage": "https://github.com/Autumn-Seven/Autumn-util.git#readme",
   "devDependencies": {
     "gulp-watch": "^5.0.1",
     "webpack": "^4.16.1",

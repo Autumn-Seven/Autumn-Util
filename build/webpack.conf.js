@@ -10,7 +10,7 @@ const config = {
 	output: {
 		filename: `${pkg.name}.min.js`,
 		path: path.resolve(rootPath, 'dest'),
-		library: `${pkg.name}`,
+		library: 'AUtil', //`${pkg.name}`,
 		libraryTarget: 'umd'
 	},
 	module: {
