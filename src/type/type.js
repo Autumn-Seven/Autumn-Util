@@ -6,7 +6,7 @@
 
 
 	// 添加到全局。
-var Utils = {
+export default {
 		/**
 		 * 解决 util 冲突处理。
 		 * 返回小工具对象，由开发人员自己处理。
@@ -64,6 +64,10 @@ var Utils = {
 		/*是否是空对象*/
 		isEmptyObject(obj) {
 			return Object.keys(obj).length === 0 && obj.constructor === Object;
+		},
+		/*是否是非空对象*/
+		isNotEmptyObject(obj) {
+			return Object.keys(obj).length > 0 && obj.constructor === Object;
 		},
 
 		/*是否是纯粹的对象*/

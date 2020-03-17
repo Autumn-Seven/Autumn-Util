@@ -13,6 +13,5 @@ const pathJoin = function (p) {
 
 
 watch([pathJoin('../src/**/*.js')], function() {
-	console.log(new Date())
 	build();
 });
