@@ -26,13 +26,14 @@
   "homepage": "https://github.com/kisstheair/Autumn-util#readme",
   "devDependencies": {
     "gulp-watch": "^5.0.1",
-    "webpack": "^4.39.3"
-  },
-  "dependencies": {
+    "webpack": "^4.39.3",
     "@babel/core": "^7.8.7",
     "babel-loader": "^8.0.6",
     "chalk": "^3.0.0",
     "ora": "^4.0.3",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+
   }
 }

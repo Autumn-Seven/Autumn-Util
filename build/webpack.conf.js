@@ -5,10 +5,11 @@ const rootPath = path.resolve(__dirname, '../')
 
 const config = {
 	mode: 'development',
+	devtool: 'source-map',
 	entry: path.resolve(rootPath, 'src', 'index.js'),
 	output: {
 		filename: `${pkg.name}.min.js`,
-		path: path.resolve(rootPath, 'dist'),
+		path: path.resolve(rootPath, 'dest'),
 		library: `${pkg.name}`,
 		libraryTarget: 'umd'
 	},

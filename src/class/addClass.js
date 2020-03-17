@@ -13,5 +13,4 @@ function addClass(ele, cls) {
     }
 }
 
-
 module.exports = addClass;

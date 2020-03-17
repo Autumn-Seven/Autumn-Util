@@ -20,6 +20,7 @@ let r = require.context('./', true, '/*.js/');
 
 
 r.keys().forEach(key => {
+	console.log(1111111111111111111111)
 	console.log(key)
 	let attr = key.substring(key.lastIndexOf('/') + 1, key.lastIndexOf('.'));
 	moduleExports[attr] = r(key);
