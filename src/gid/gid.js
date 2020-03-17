@@ -90,5 +90,4 @@ export default {
 
 		return '0'.repeat(nOffset) + nValue;
 	},
-
 };
