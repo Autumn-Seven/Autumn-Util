@@ -19,7 +19,7 @@
 
 ### npm:
 ``` bash
-$ npm install --save-dev  Autumn-util@Autumn-Seven
+$ npm install --save-dev  autumn-util
 ```
 
 webpack、RequireJS、SeaJS等
