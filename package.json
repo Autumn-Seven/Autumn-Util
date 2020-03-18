@@ -2,7 +2,7 @@
   "name": "autumn-util",
   "version": "1.0.0",
   "description": "前端常用的工具函数，支持umd",
-  "main": "index.js",
+  "main": "dest/autumn-util.min.js",
   "scripts": {
     "dev": "node build/gulp.js",
     "build": "node build/build.js",
